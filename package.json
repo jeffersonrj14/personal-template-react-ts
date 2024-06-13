@@ -1,8 +1,13 @@
 {
-  "name": "react-proje",
+  "name": "personal-template-react-ts",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": {
+    "name": "Ritch Johan Jefferson",
+    "email": "jefferson@jeffersonrj.com",
+    "url": "https://jeffersonrj.com"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "vite",
