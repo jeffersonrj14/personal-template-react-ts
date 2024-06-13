@@ -1,5 +1,7 @@
 # personal-template-react-ts
 
+▲ | My personal starter for React: Vite, TS, Tailwind and other custom pages
+
 - [Vite](https://vitejs.dev/)
 - [React](https://react.dev/)
   - [React Router](https://reactrouter.com/)
@@ -25,7 +27,7 @@ pnpm dev
 
 ## Note: If you encounter an error, please follow these steps:
 
-1. Note: If you encounter an error, please follow these steps:
+1. Delete `pnpm-lock.yaml` and `node_modules`.
 2. Run the following commands:
   ```bash
   pnpm install
