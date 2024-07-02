@@ -4,7 +4,7 @@ function Header() {
   const pathname = removeTrailingSlash(window.location.pathname)
 
   return (
-    <header className='z-40 mx-auto my-8 flex max-w-[872px] flex-col gap-2 px-4 text-jefferson-light md:flex-row md:justify-between'>
+    <header className='z-40 mx-auto my-8 flex max-w-[872px] flex-col gap-2 px-4 text-jefferson-light md:flex-row md:justify-between font-mono'>
       <a href='/'>
         <span className='hover:text-jefferson-main'>Template</span>
         <span>・</span>

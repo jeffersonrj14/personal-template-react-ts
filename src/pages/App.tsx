@@ -5,12 +5,12 @@ import NotFound from './404'
 
 function App() {
   const seoProps: HeadTags = {
-    title: 'Home',
-    description: "RJ Jefferson's Projects",
+    title: "RJ Jefferson's",
+    description: "RJ Jefferson's React Personal Template",
     og: {
-      title: 'Home',
-      description: "RJ Jefferson's Projects",
-      alt: 'Projects'
+      title: "RJ Jefferson's",
+      description: "RJ Jefferson's React Personal Template",
+      alt: 'Template'
     },
     noindex: false
   }
@@ -33,7 +33,9 @@ function App() {
           path='/'
           element={
             <DefaultLayout seoProps={seoProps}>
-              Personal React Template
+              <div className='grid grid-cols-[repeat(auto-fit,_16.666666%)] m-auto p-24 justify-center text-white/80 font-mono'>
+                React Personal Template
+              </div>
             </DefaultLayout>
           }
         />

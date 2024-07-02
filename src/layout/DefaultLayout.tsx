@@ -3,6 +3,7 @@ import Header from '../components/shared/Header'
 import Footer from '../components/shared/Footer'
 import SEO from '../components/SEO/SEO'
 import { HeadTags } from '../utils/types/HeadTags'
+import { Toaster } from 'react-hot-toast'
 
 interface DefaultLayoutProps {
   children: ReactNode
@@ -14,6 +15,9 @@ const DefaultLayout = ({ children, seoProps }: DefaultLayoutProps) => {
     <>
       <SEO {...seoProps} />
       <Header />
+      <div>
+        <Toaster />
+      </div>
       <div className='mx-auto my-8 max-w-3xl px-4 md:px-0'>
         <main>{children}</main>
       </div>
